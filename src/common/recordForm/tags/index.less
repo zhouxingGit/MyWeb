@@ -1,0 +1,35 @@
+@charset "utf-8";
+.tags{
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 80px;
+  border: 1px dashed #ccc;
+  i{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    font-size: 18px;
+    display: none;
+    cursor: pointer;
+  }
+
+  &:hover{
+    i{
+      display: block;
+    }
+  }
+
+  label{
+    margin-left: 0 !important;
+  }
+}
+.color{
+  div{
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  input[type=color]{
+    display: block;
+  }
+}
